@@ -1,0 +1,16 @@
+Aula 2 - Select
+Select
+--SQL Server, Postgres, Oracle, MySql
+
+SELECT coluna1,coluna2
+FROM tabela
+
+SELECT *
+FROM tabela
+
+Select é um meio de busca para achar algo por categorias, sendo um dos comandos mais básicos de SQL
+
+A EQUIPE DE MARKETING PRECISA FAZER UMA ESQUISA SOBRE NOMES MAIS COMUNS E SEUS CLIENTES E PRECISA DO NOME E SOBRENOME DE
+TODOS OS CLIENTES QUE ESTÃO CADASTRADOS NO SISTEMA.
+
+first name, last name

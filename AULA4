@@ -19,14 +19,34 @@ WHERE condicao;
 A equipe de produção de produtos precisa do nome de todas as peças 
 que pesam mais de que 500kg mas não mais que 700kg para insperção
 peso em inglês é weight
+
+Resolução:
+SELECT Name 
+FROM Production.Product
+WHERE wheight > 500 and weight < 700
+
 --Desafio 2 
 Foi pedido pelo markering uma relação de todos os empregados (employees)
 que são casados (single=solteiro, married=caasado) e são assalaridos 
+
+Resolução: 
+SELECT *
+FROM HumanResources.Employee
+WHERE MaritalStatus = 'm' and SalariedFlag = 1
+
 -- Desafio 3
 Um usuário chamado Peter Krebs está devendo um pagamento, consiga o email 
 dele para que possamos enviar uma cobrança!
 BusinnesEntityld
 (você vai ter que usar a tabela person.person e depois a tabela 
 person.emailaddress)
-(slaried)
+
+Resolução:
+SELECT *
+FROM person.Person;
+WHERE FirstName = 'peter' and LastName = 'krebs' 
+
+SELECT *
+FROM person.EmaiilAddress
+WHERE BusinessEntityID = 26
  */

@@ -1,0 +1,26 @@
+/*
+--COUNT
+Server para bater no numero de linhas que foi estabelecido na condição
+
+SELECT COUNT (DISTINCT coluna1)
+FROM tabela 
+
+Desafio 1
+Eu quero saber quantos produtos temos cadastrados em nossa tabela de produtos 
+(production.product)
+
+Resolução:
+SELECT count (*)
+FROM Production.Product
+
+Desafio 2 
+Eu quero saber quantos tamanhos de produtos temos cadastrados em nossa tabela 
+(production.product)
+
+Resolução:
+SELECT count(size)
+FROM Production.Product
+*/
+
+
+

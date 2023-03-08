@@ -1,6 +1,7 @@
+/*
 --TOP
 Server para filtrar e limitar a quantidade de dados de um SELECT
 
 SELECT TOP 10 *
 FROM tabela 
-
+*/

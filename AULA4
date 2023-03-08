@@ -1,0 +1,32 @@
+/*SELECT é usado para extrair dados de uma tabela, já o WHERE é usado
+apenas para extrair alguns dados da tabela 
+
+SELECT coluna1, coluna2, coluna_n
+FROM tabela 
+WHERE condicao; 
+
+ OPERADOR    -  DESCRIÇÃO
+ =              IGUAL
+ >              MAIOR QUE 
+ <              MENOR QUE
+ >=             MAIOR QUE OU IGUAL 
+ <=             MENOR QUE OU IGUAL
+ <>             DIFERENTE DE
+ AND            OPERADOR LÒGICO E
+ OR             OPERADOR LòGICO OU
+
+--Desafio
+A equipe de produção de produtos precisa do nome de todas as peças 
+que pesam mais de que 500kg mas não mais que 700kg para insperção
+peso em inglês é weight
+--Desafio 2 
+Foi pedido pelo markering uma relação de todos os empregados (employees)
+que são casados (single=solteiro, married=caasado) e são assalaridos 
+-- Desafio 3
+Um usuário chamado Peter Krebs está devendo um pagamento, consiga o email 
+dele para que possamos enviar uma cobrança!
+BusinnesEntityld
+(você vai ter que usar a tabela person.person e depois a tabela 
+person.emailaddress)
+(slaried)
+ */
